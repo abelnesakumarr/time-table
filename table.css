@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #0275d8;
+}
+
+table {
+  border-top: 10px solid #999999;
+  border-left: 10px solid #999999;
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+  border-collapse: collapse;
+  background-color: white;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #0275d8;
+}
+
+.orange-color {
+  background-color: #ffcd9a;
+}
+
+.green-color {
+  background-color: #00ff01;
+}
+
+.pink-color {
+  background-color: #ff99ff;
+}
+
+.ash-color {
+  background-color: #cccccc;
+}
+/*# sourceMappingURL=table.css.map */
